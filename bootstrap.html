@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>The Recipe</title>
+
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+
+  <style>
+    body {
+      background-color: #f5f5f5;
+    }
+
+
+    header.header {
+      background-color: #343a40;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 8px black;
+    }
+
+
+    @media (max-width: 576px) {
+      header.header {
+        padding: 1.5rem;
+      }
+    }
+
+
+    .instructions-title {
+      border-bottom: 2px solid black;
+      padding-bottom: 0.25rem;
+    }
+
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+
+    .card {
+      box-shadow: 0 4px 8px black;
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    
+   <a class="navbar-brand" href="index.html">My Portfolio</a>
+
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#hobbies">Hobbies</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.w3schools.com" target="_blank">Coding Resource</a>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+            My Recipes
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="bootstrap.html">V3: Bootstrap</a></li>
+            <li><a class="dropdown-item" href="html.html">V1: HTML Only</a></li>
+            <li><a class="dropdown-item" href="CSS.html">V2: CSS Styled</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+<div class="container my-4">
+
+  <header class="header mb-4">
+    <h1 class="display-4">Meat Lasagna</h1>
+    <p class="lead mb-1"><strong>Timing & Heat</strong></p>
+    <p>Cooking Time: 45 minutes • Oven: 350°F</p>
+  </header>
+
+
+  <div class="row mb-4">
+    <div class="col-sm-6 col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="media/parmama.jpeg" class="card-img-top" alt="Parmesan" loading="lazy">
+        <div class="card-body text-center">
+          <h5 class="card-title">Parmesan</h5>
+          <p class="card-text">Grated and stronger cheese</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="media/lasanganood.jpeg" class="card-img-top" alt="Lasagna Noodles" loading="lazy">
+        <div class="card-body text-center">
+          <h5 class="card-title">Lasagna Noodles</h5>
+          <p class="card-text">Wide pasta sheets for layering.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="media/riccotta.jpeg" class="card-img-top" alt="Ricotta Cheese" loading="lazy">
+        <div class="card-body text-center">
+          <h5 class="card-title">Ricotta Cheese</h5>
+          <p class="card-text">Creamy and rich texture.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row mb-4">
+    <div class="col-sm-6 col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="media/mooz.jpeg" class="card-img-top" alt="Mozzarella Cheese" loading="lazy">
+        <div class="card-body text-center">
+          <h5 class="card-title">Mozzarella</h5>
+          <p class="card-text">Melty topping cheese.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="media/beef.jpeg" class="card-img-top" alt="Ground Meat" loading="lazy">
+        <div class="card-body text-center">
+          <h5 class="card-title">Ground Meat</h5>
+          <p class="card-text">Turkey or beef used in the sauce.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-4 mb-3">
+      <div class="card h-100">
+        <img src="media/sauce.jpeg" class="card-img-top" alt="Marinara Sauce" loading="lazy">
+        <div class="card-body text-center">
+          <h5 class="card-title">Marinara Sauce</h5>
+          <p class="card-text">Slow-simmered tomato sauce.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-md-6 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="card-title">Ingredients</h3>
+          <ul>
+            <li>8 oz Lasagna Noodles</li>
+            <li>1 lb Ricotta Cheese</li>
+            <li>8 oz Mozzarella (sliced)</li>
+            <li>1 cup Parmesan (grated)</li>
+          </ul>
+
+
+          <h5 class="mt-3">Marinara Sauce</h5>
+          <ul>
+            <li>1 medium onion, minced</li>
+            <li>2–8 garlic cloves, minced</li>
+            <li>2 tbsp olive oil</li>
+            <li>1 lb ground turkey or beef</li>
+            <li>1 lb crushed Italian tomatoes</li>
+            <li>2 cups water</li>
+            <li>1 tbsp salt</li>
+            <li>⅛ tsp cayenne pepper</li>
+            <li>1 tbsp sugar</li>
+            <li>Pinch of basil</li>
+            <li>1 bay leaf</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-6 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="instructions-title">Instructions – Assembly</h3>
+          <ol>
+            <li>Cook lasagna noodles according to package instructions (8–12 minutes).</li>
+            <li>Layer ingredients in a shallow pan.</li>
+          </ol>
+
+
+          <p class="font-weight-bold">
+            Noodles → Ricotta → Mozzarella → Marinara → Parmesan
+          </p>
+
+
+          <h3 class="instructions-title mt-4">Instructions – Sauce</h3>
+          <ol>
+            <li>Sauté onion and garlic in olive oil.</li>
+            <li>Add meat and cook until browned.</li>
+            <li>Add remaining ingredients.</li>
+            <li>Simmer for 1½ hours.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
